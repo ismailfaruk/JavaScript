@@ -21,12 +21,12 @@ const intInit = posInt;
 let summed = 0;
 // The while loop will run while posInt's stored integer value is greater than 0
 while (posInt > 0) {
-// This is the equivalent of summed = summed + posInt;
-// In other words: new value of summed = old value of summed + new value of posInt;
-summed += posInt;
-// This will decrement posInt so that posInt will eventually equal 0 and the while
-// loop will stop running its code.
-posInt--;
+    // This is the equivalent of summed = summed + posInt;
+    // In other words: new value of summed = old value of summed + new value of posInt;
+    summed += posInt;
+    // This will decrement posInt so that posInt will eventually equal 0 and the while
+    // loop will stop running its code.
+    posInt--;
 }
 console.log(intInit); // displays the initial value of posInt
 console.log(summed); // displays the sum of integers from posInt
