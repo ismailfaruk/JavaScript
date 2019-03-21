@@ -28,5 +28,6 @@ while (posInt > 0) {
     // loop will stop running its code.
     posInt--;
 }
+
 console.log(intInit); // displays the initial value of posInt
 console.log(summed); // displays the sum of integers from posInt

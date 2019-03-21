@@ -15,3 +15,11 @@ equivalent.
 
 For example, if the fahrenheit function is called with 0 as its input, a message stating that the Fahrenheit equivalent of 0 degrees Celsius 
 is 32 should be logged to the console.*/
+
+function fahrenheit(Cel) {
+    return 1.8 * Cel + 32;
+}
+    
+for (let i = 0; i < 100; i += 10) {
+    console.log("The Fahrenheit equivalent of " + i + " degrees Celsius is " + fahrenheit(i) + ".");
+}
